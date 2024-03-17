@@ -12,9 +12,15 @@ using each of the following methods:
 
 
 You should try each of the methods from each of the three starting 
-points [-1 1]^T , [0 1]^T , and [2 1]^T . For any line searches 
+points [-1 1]^T , [0 1]^T , and [2 1]^T. For any line searches 
 and linear system solutions required, you may use either library 
 routines or routines of your own design. Plot the path taken in the 
 plane by the approximate solutions for each method from each starting point.
 
 """
+
+def f(x, y):
+    return 100 * (y - x**2)**2 + (1 - x)**2
+
+
+
